@@ -14,8 +14,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://task-manager-git-main-krishnas-projects-c1fe5c17.vercel.app",
       "https://task-manager-jet-tau-67.vercel.app",
+      "https://task-manager-git-main-krishnas-projects-c1fe5c17.vercel.app",
     ],
     credentials: true,
   })
