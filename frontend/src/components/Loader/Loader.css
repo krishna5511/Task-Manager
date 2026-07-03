@@ -1,0 +1,52 @@
+.loaderContainer{
+
+    width:100%;
+    min-height:400px;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.spinner{
+
+    border:6px solid #E5E7EB;
+
+    border-top:6px solid #4F46E5;
+
+    border-radius:50%;
+
+    animation:spin 0.8s linear infinite;
+
+}
+
+.loaderContainer p{
+
+    font-size:16px;
+
+    color:#64748B;
+
+    font-weight:500;
+
+}
+
+@keyframes spin{
+
+    0%{
+
+        transform:rotate(0deg);
+
+    }
+
+    100%{
+
+        transform:rotate(360deg);
+
+    }
+
+}

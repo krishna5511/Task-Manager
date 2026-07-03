@@ -1,0 +1,120 @@
+.navbar{
+
+height:var(--navbar-height);
+/* margin-left:var(--sidebar-width); */
+width: calc(100%);
+background:white;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:0 40px;
+
+box-shadow:0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.searchContainer{
+
+width:600px;
+
+height:48px;
+
+background:#F8FAFC;
+
+border:1px solid #E2E8F0;
+
+border-radius:14px;
+
+display:flex;
+
+align-items:center;
+
+padding:0 18px;
+
+gap:12px;
+
+}
+
+.searchContainer input{
+
+flex:1;
+
+border:none;
+
+outline:none;
+
+background:transparent;
+
+font-size:15px;
+
+}
+
+.searchIcon{
+
+color:#64748B;
+
+}
+
+.rightSection{
+
+display:flex;
+
+align-items:center;
+
+gap:25px;
+
+}
+
+
+.profile{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+cursor:pointer;
+
+}
+
+.profile img{
+
+width:46px;
+
+height:46px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+.profileInfo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2px;
+
+}
+
+.profileInfo h4{
+
+    font-size:15px;
+
+    color:#111827;
+
+}
+
+.profileInfo p{
+
+    font-size:12px;
+
+    color:#64748B;
+
+}

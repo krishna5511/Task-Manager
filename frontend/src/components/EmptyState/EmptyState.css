@@ -1,0 +1,88 @@
+.emptyState{
+
+    width:100%;
+    min-height:500px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.emptyIcon{
+
+    width:110px;
+    height:110px;
+
+    border-radius:50%;
+
+    background:#EEF2FF;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:42px;
+
+    color:#4F46E5;
+
+}
+
+.emptyState h2{
+
+    font-size:28px;
+
+    color:#1E293B;
+
+}
+
+.emptyState p{
+
+    color:#64748B;
+
+    font-size:16px;
+
+    max-width:380px;
+
+    text-align:center;
+
+    line-height:1.7;
+
+}
+
+.emptyState button{
+
+    margin-top:10px;
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#4F46E5;
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.emptyState button:hover{
+
+    background:#4338CA;
+
+}

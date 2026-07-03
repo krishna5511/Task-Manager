@@ -1,0 +1,237 @@
+.taskCard{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.taskCard:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+}
+
+.taskTop{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.taskTop h2{
+
+    font-size:22px;
+
+    color:#111827;
+
+}
+
+.priority{
+
+    padding:7px 14px;
+
+    border-radius:30px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.HIGH{
+
+    background:#FEE2E2;
+
+    color:#DC2626;
+
+}
+
+.MEDIUM{
+
+    background:#FEF3C7;
+
+    color:#D97706;
+
+}
+
+.LOW{
+
+    background:#DCFCE7;
+
+    color:#16A34A;
+
+}
+
+.description{
+
+    color:#6B7280;
+
+    line-height:1.7;
+
+}
+
+.subTaskProgress{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.subTaskProgress span{
+
+    font-size:14px;
+
+    color:#374151;
+
+}
+
+.progress{
+
+    height:10px;
+
+    background:#E5E7EB;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+.fill{
+
+    height:100%;
+
+    background:#4F46E5;
+
+    transition:.4s;
+
+}
+
+.taskBottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.dueDate{
+
+    display:flex;
+
+    gap:8px;
+
+    align-items:center;
+
+    color:#6B7280;
+
+}
+
+.status{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:600;
+
+}
+
+.complete{
+
+    color:#22C55E;
+
+}
+
+.pending{
+
+    color:#F59E0B;
+
+}
+
+.taskActions{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.taskActions button{
+
+    flex:1;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    transition:.3s;
+
+}
+
+.editBtn{
+
+    background:#EEF2FF;
+
+    color:#4F46E5;
+
+}
+
+.editBtn:hover{
+
+    background:#DDE5FF;
+
+}
+
+.deleteBtn{
+
+    background:#FEE2E2;
+
+    color:#DC2626;
+
+}
+
+.deleteBtn:hover{
+
+    background:#FECACA;
+
+}

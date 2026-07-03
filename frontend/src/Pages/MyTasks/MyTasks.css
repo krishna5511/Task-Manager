@@ -1,0 +1,140 @@
+.myTasks{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+/* Header */
+
+.taskHeader{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.taskHeader h1{
+
+    font-size:36px;
+
+    color:#111827;
+
+}
+
+.taskHeader button{
+
+    border:none;
+
+    background:#4F46E5;
+
+    color:white;
+
+    padding:14px 24px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.taskHeader button:hover{
+
+    background:#4338CA;
+
+}
+
+/* Toolbar */
+
+.taskToolbar{
+
+    display:flex;
+
+    gap:18px;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+.taskToolbar select{
+
+    padding:13px 18px;
+
+    border:1px solid #D1D5DB;
+
+    border-radius:12px;
+
+    outline:none;
+
+    cursor:pointer;
+
+}
+
+/* Grid */
+
+.taskGrid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(360px,1fr));
+
+    gap:24px;
+
+}
+.pagination{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:30px;
+
+}
+
+.pagination button{
+
+    border:none;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#E5E7EB;
+
+    transition:.3s;
+
+}
+
+.pagination button:hover{
+
+    background:#4F46E5;
+
+    color:white;
+
+}
+
+.activePage{
+
+    background:#4F46E5 !important;
+
+    color:white;
+
+}

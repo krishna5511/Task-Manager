@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,sans-serif;
+}
+
+.dashboardLayout{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:#F8FAFC;
+
+}
+
+/* Main Section */
+
+.mainContent{
+
+    flex:1;
+
+    margin-left:280px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* Page Content */
+
+.pageContent{
+
+    flex:1;
+
+    padding:30px;
+
+    overflow-y:auto;
+
+    background:#F8FAFC;
+
+}
