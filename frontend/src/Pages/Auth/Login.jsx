@@ -54,14 +54,13 @@ const Login = () => {
 
       const data = await login(payload);
 
+      localStorage.setItem("token", data.token);
+
       toast.success(data.message);
 
       navigate("/dashboard");
     } catch (err) {
-      toast.error(
-        err.response?.data?.message ||
-        "Something went wrong"
-      );
+      toast.error(err.response?.data?.message || "Something went wrong");
     } finally {
       setLoading(false);
     }
@@ -69,20 +68,12 @@ const Login = () => {
 
   return (
     <div className="loginContainer">
-
       <div className="loginCard">
-
         <div className="loginLeft">
-          <img
-            src={loginImage}
-            alt="Login"
-          />
+          <img src={loginImage} alt="Login" />
         </div>
 
-        <form
-          className="loginForm"
-          onSubmit={handleSubmit}
-        >
+        <form className="loginForm" onSubmit={handleSubmit}>
           <h1>Login</h1>
 
           <p>Welcome Back 👋</p>
@@ -113,24 +104,15 @@ const Login = () => {
             />
           </div>
 
-          <button
-            type="submit"
-            disabled={loading}
-          >
+          <button type="submit" disabled={loading}>
             {loading ? "Logging In..." : "Login"}
           </button>
 
           <p className="signupText">
-            Don't have an account?{" "}
-            <Link to="/signup">
-              Signup
-            </Link>
+            Don't have an account? <Link to="/signup">Signup</Link>
           </p>
-
         </form>
-
       </div>
-
     </div>
   );
 };
