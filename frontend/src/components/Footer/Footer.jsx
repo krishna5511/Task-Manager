@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="socialLinks">
 
           <a
-            href="https:/github.com/krishna5511"
+            href="https://github.com/krishna5511"
             target="_blank"
             rel="noreferrer"
             title="GitHub"
@@ -62,7 +62,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="krjangid0123@gmail.com"
+            href="mailto:krjangid0123@gmail.com"
             title="Email"
           >
             <FaEnvelope />
